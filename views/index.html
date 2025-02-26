@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Store</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h2 class="header">General Store Seller Dashboard</h2>
+
+    <div class="container">
+        <form id="myForm">
+            <div class="form-group">
+                <label>Item Name:</label>
+                <input type="text" id="ItemName">
+            </div>
+
+            <div class="form-group">
+                <label>Description:</label>
+                <input type="text" id="Description">
+            </div>
+
+            <div class="form-group">
+                <label>Price:</label>
+                <input type="number" id="Price">
+            </div>
+
+            <div class="form-group">
+                <label>Quantity:</label>
+                <input type="number" id="Quantity">
+            </div>
+
+            <button type="button" id="AddItemBtn">Add Item</button>
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Item Name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Buy 1</th>
+                    <th>Buy 2</th>
+                    <th>Buy 3</th>
+                </tr>
+            </thead>
+            <tbody id="itemTableBody">
+            </tbody>
+        </table>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
